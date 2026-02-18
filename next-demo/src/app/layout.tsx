@@ -13,12 +13,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0 }}>
+      <body>
         <header>
-          <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <div className="container nav">
             <div style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>MyLogo</div>
             <nav>
-              <ul style={{ listStyle: 'none', display: 'flex', gap: '20px' }}>
+              <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#features">Features</a></li>
                 <li><a href="#about">About</a></li>

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div>
@@ -35,18 +33,15 @@ export default function Home() {
 
       {/* About Section */}
       <section id="about" style={{ padding: '60px 0', background: '#fff' }}>
-        <div className="container" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '40px' }}>
-          <div style={{ flex: '1', minWidth: '300px' }}>
-            <h2>About Us</h2>
-            <p>We are a small team dedicated to creating tools that make life easier. Our goal is to focus on quality and simplicity in everything we build.</p>
-          </div>
-          <div style={{ flex: '1', minWidth: '300px', position: 'relative', height: '300px', borderRadius: '10px', overflow: 'hidden' }}>
-            <Image
-              src="https://miro.medium.com/v2/resize:fit:1358/format:webp/1*mdLT2ZK_3OlDwK2R-Q2UlQ.jpeg"
-              alt="About Us"
-              fill
-              style={{ objectFit: 'cover' }}
-            />
+        <div className="container">
+          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '40px' }}>
+            <div style={{ flex: '1', minWidth: '300px' }}>
+              <h2>About Us</h2>
+              <p>We are a small team dedicated to creating tools that make life easier. Our goal is to focus on quality and simplicity in everything we build.</p>
+            </div>
+            <div style={{ flex: '1', minWidth: '300px', background: '#eee', height: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '10px' }}>
+              <p style={{ color: '#999' }}>Company Image Placeholder</p>
+            </div>
           </div>
         </div>
       </section>
